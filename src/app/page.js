@@ -7,7 +7,7 @@ import Link from 'next/link'
 import InstagramIcon from '../../public/instagramicon.png'
 import { Button } from 'react-bootstrap'
 import PortfolioImage from '../../public/portfolioimage-tiny.png'
-//import PortfolioImage2 from '../../public/portfolioimage.png'
+import PortfolioImage2 from '../../public/portfolioimage.png'
 import Decor1 from '../../public/decor1.png'
 import Decor2 from '../../public/decor2.png'
 import CrossPlatform from '../../public/crossplatform.png'
@@ -61,6 +61,7 @@ export default function Home() {
 
             <div>
               <Image src={PortfolioImage} className={styles.portfolioimage} alt="myimage"/>
+             
             </div>
 
           <Image src={Decor1} className={styles.decor1} alt="icon"/>
