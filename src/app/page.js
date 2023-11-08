@@ -7,7 +7,7 @@ import Link from 'next/link'
 import InstagramIcon from '../../public/instagramicon.png'
 import { Button } from 'react-bootstrap'
 import PortfolioImage from '../../public/portfolioimage-tiny.png'
-import PortfolioImage2 from '../../public/portfolioimage.png'
+//import PortfolioImage2 from '../../public/portfolioimage.png'
 import Decor1 from '../../public/decor1.png'
 import Decor2 from '../../public/decor2.png'
 import CrossPlatform from '../../public/crossplatform.png'
@@ -56,7 +56,7 @@ export default function Home() {
                 <a href="https://www.linkedin.com/in/daniel-karanja-7350b1198" target="_blank" rel="noreferrer"><Image src={LinkedInIcon} className={styles.linkedinicon} alt="linkedinicon"/></a>
                 <a href="https://instagram.com/agira.ke?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr" target="_blank" rel="noreferrer"><Image src={InstagramIcon} className={styles.instagramicon} alt="instagramicon"/></a>
               </div>
-              <Button className={styles.calltoactionbtn}><a style={{textDecoration:"none", color:"white"}} href="mailto:danielkaranja65@gmail.com">Get in Touch</a></Button>
+              <a style={{textDecoration:"none", color:"white"}} href="mailto:danielkaranja65@gmail.com"><Button className={styles.calltoactionbtn}>Get in Touch</Button></a>
             </div>
 
             <div>
@@ -85,7 +85,7 @@ export default function Home() {
           <p>Need a Website?, Look no Further</p>
           <p>I have a dedicated web development page.<br/> Click <a href="https://agiradaniel.github.io/agira-technologies/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"#3D8840"}}>here</a> to learn more and start your online journey.</p>
         </div>
-        <Button className={styles.getwebsitebtn}><a style={{textDecoration:"none", color:"white"}} href="https://agiradaniel.github.io/agira-technologies/" target="_blank" rel="noreferrer">Get a Website</a></Button>
+        <a style={{textDecoration:"none", color:"white"}} href="https://agiradaniel.github.io/agira-technologies/" target="_blank" rel="noreferrer"><Button className={styles.getwebsitebtn}>Get a Website</Button></a>
 
       </div>
 
@@ -261,7 +261,7 @@ export default function Home() {
               <a>danielkaranja65@gmail.com</a>
               <a style={{marginTop:"15px"}}>+254-711754449</a>
             </div> 
-            <Button className={styles.contactbutton}><a style={{textDecoration:"none", color:"white"}} href="mailto:danielkaranja65@gmail.com">Get in Touch</a></Button>
+            <a style={{textDecoration:"none", color:"white"}} href="mailto:danielkaranja65@gmail.com"><Button className={styles.contactbutton}>Get in Touch</Button></a>
          </div> 
       </div>
 
