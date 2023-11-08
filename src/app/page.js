@@ -74,7 +74,7 @@ export default function Home() {
           <p>From iOS to Android, web, and desktop, I possess a diverse range of capabilities. 
             I excel in crafting tailored solutions across these platforms, addressing your unique 
             problems and enhancing your business.</p>
-            <Button><a style={{textDecoration:"none", color:"black"}} href="https://agiraportfolio.vercel.app/portfoliocv.pdf" target="_blank" rel="noreferrer">Resume</a></Button>
+            <a style={{textDecoration:"none", color:"black"}} href="https://agiraportfolio.vercel.app/portfoliocv.pdf" target="_blank" rel="noreferrer"><Button>Resume</Button></a>
         </div>
 
       </div>
