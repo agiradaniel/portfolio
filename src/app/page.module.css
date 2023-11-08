@@ -94,7 +94,7 @@
       }
       .portfolioimage{
         width: 360px;
-        height: 550px
+        height: 520px
       }
       /*.portfolioimage2{
         width: 300px;
@@ -338,8 +338,8 @@
        
       }
       .portfolioimage{
-        width: 215px; /* 130 230*/
-        height: 260px;
+        width: 220px; /* 130 230*/
+        height: 240px;
         margin: 20px 0;
       }
       /*.portfolioimage2{
@@ -667,8 +667,8 @@
     right:0 
   }
   .portfolioimage{
-    width: 335px;
-    height: 500px
+    width: 350px;
+    height: 480px
   }
   /*.portfolioimage2{
     width: 300px;
