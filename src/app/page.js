@@ -119,8 +119,8 @@ export default function Home() {
           </div>
 
           <div>
-          <div className={styles.innertechdiv}>
-              <Image src={DjangoLogo} style={{margin:"4px 10px 0 0"}} alt="Django logo"/>
+            <div className={styles.innertechdiv}>
+              <Image src={DjangoLogo} style={{margin:"1px 3px 0 0", width: "30px", height: "30px", position:"relative", right:"3px"}} alt="Django logo"/>
               <p>Django</p>
             </div>
             <div className={styles.innertechdiv}>
