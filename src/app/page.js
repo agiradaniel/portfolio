@@ -16,6 +16,7 @@ import NextJsLogo from '../../public/nextjslogo.png'
 import ReactJsLogo from '../../public/reactjsicon.png'
 import ExpoLogo from "../../public/expoicon.png"
 import TypescriptLogo from '../../public/typescripticon.png'
+import DjangoLogo from '../../public/djangologo.png'
 import NodeJsLogo from '../../public/nodejslogo.png'
 import ExpressJsLogo from '../../public/expresslogo.png'
 import FirebaseLogo from '../../public/firebaselogo.png'
@@ -118,6 +119,10 @@ export default function Home() {
           </div>
 
           <div>
+          <div className={styles.innertechdiv}>
+              <Image src={DjangoLogo} style={{margin:"4px 10px 0 0"}} alt="Django logo"/>
+              <p>Django</p>
+            </div>
             <div className={styles.innertechdiv}>
               <Image src={NodeJsLogo} style={{margin:"4px 10px 0 0"}} alt="nodejs logo"/>
               <p>Node Js</p>
