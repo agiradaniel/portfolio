@@ -272,7 +272,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        <p>&copy; 2023 Daniel Karanja</p>
+        <p>&copy; {new Date().getFullYear()} Daniel Karanja</p>
         <p>Built with Next JS</p>
       </footer>
       
