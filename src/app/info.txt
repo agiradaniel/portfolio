@@ -1,0 +1,1 @@
+For Figma exports project images use width 461 and height 760

@@ -259,7 +259,6 @@
         font-size: 18px
       }
 
-      
       @keyframes rotate {
         0% {
           transform: rotate(0deg); /* Start with 0 degrees of rotation */
