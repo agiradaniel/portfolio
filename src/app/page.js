@@ -189,6 +189,7 @@ export default function Home() {
               <p>Typescript</p>
               <p>PostgreSQL</p>
               <p>HTMX</p>
+              <a style={{ textDecoration: "none", color: "white" }} href="https://itrustgadgets.com/" target="_blank" rel="noreferrer"><Image src={ViewWebsiteIcon} style={{ margin: "10px 0 0 10px" }} alt="project image" /></a>
             </div>
           </div>
           <div className={styles.projectimagediv}><Image src={ItrustDashboard} style={{ borderRadius: "5px" }} className={styles.projectimage} alt="project image" /></div>
